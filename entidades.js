@@ -16,10 +16,10 @@ class Libros{
 
     }
 
-    priceWithIva(price)
+    priceWithIva()
     {
-        let finalPrice = price * 1.21;  
-        return finalPrice;  
+        let finalPrice = this.price * 1.21;  
+        return finalPrice + "$";  ;  
     } 
 }
 
@@ -30,9 +30,9 @@ class Libros{
 generos= ["Policial","Ciencia Ficcion","Infantil/Juvenil","Terror","Tradicionales"] 
 
 
-let book  = new Libros("1984","George Orwell",generos[1],"300$",12)
-let book2 = new Libros("Estudio en Escarlata","Edgar Allan Poe",generos[0],"400$",40)
-let book3 = new Libros("Harry Potter y la Orden del Fenix","J.K Rowling",generos[2],"600$",33)
+let book  = new Libros("1984","George Orwell",generos[1],300,12)
+let book2 = new Libros("Estudio en Escarlata","Edgar Allan Poe",generos[0],400,40)
+let book3 = new Libros("Harry Potter y la Orden del Fenix","J.K Rowling",generos[2],600,33)
 
 console.log(book);
 console.log(book2);
