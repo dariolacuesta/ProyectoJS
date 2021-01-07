@@ -19,7 +19,7 @@ class Libros{
     priceWithIva()
     {
         let finalPrice = this.price * 1.21;  
-        return finalPrice + "$";  ;  
+        return finalPrice + "$"; 
     } 
 }
 
