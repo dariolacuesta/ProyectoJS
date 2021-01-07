@@ -4,13 +4,8 @@ compras y mediante funciones ir modificando elementos del DOM que indiquen si ha
 class Libros{
 
      
-    title= "";
-    writer="";
-    genre= "";
-    price = "";
-    stock =0;
-    id = randomId();    
-    constructor(id = null,title,writer,genre,price,stock)
+     
+    constructor(title,writer,genre,price,stock)
     {
         this.id = randomId();
         this.title = title;
