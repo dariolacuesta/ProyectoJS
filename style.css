@@ -1,13 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Darker+Grotesque:300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic);
 a{
     color:black;
-    font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-size: 40px;
+    font-family:"Amatic SC";
 }
 .dropdown-item{
-    font-size: 15px;
+    font-size: 35px;
 }
 
-.nav-link{
+.nav-link{  
     border-style:inset;
     border-color:grey;
 }
@@ -18,4 +20,58 @@ a{
 
 #navigatebar{
     background-color: white;
+}
+
+.books{
+   width:150px;
+   height:150px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 15px;
+   margin-top: 5px;
+}
+
+#name{  
+    font-family:"Amatic SC";
+    font-size:55px;
+    padding-right:15px;
+}
+
+.card {
+    border-radius: 40px;
+    background-color:white;
+    margin-top: 5px;
+    margin-left:25px;
+    margin-right:25px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right:30px;
+    font-size: 12px;
+}
+
+.title{
+    font-size:25px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 22px;
+    font-family:'Grotesque'
+}
+h2{
+font-size: 32px;
+font-family:'Roboto Condensed'
+}
+#nameb{
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+
+.price{
+font-size: 20px;
+margin-top: auto;
+margin-left: auto;
+margin-right: auto;
 }

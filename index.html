@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:regular,700" rel="stylesheet"/>
+    <script src="app.js" defer></script>
+    <script src="UpdaterDOM.js"></script>
+    <script src="entidades.js"></script>
     <title>El Pupis</title>
 </head>
 <body  class="image-back">
   <div id="navigatebar">
     <nav class="navbar navbar-expand-lg navbar-full" >
-        <img src="images/logo.png">
+        <input type="image" src="images/logo.png">
         <div class="container-fluid"> 
         <!-- <a class="navbar-brand" href="#" style="font-size: 25px;">Venta Online</a> -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,25 +36,31 @@
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Policial</a>
                   <a class="dropdown-item" href="#">Ciencia Ficcion</a>
-                  <a class="dropdown-item" href="#">Infantil / Juvenil</a>
-                  <a class="dropdown-item" href="#">Terror</a>
+                  <a class="dropdown-item" href="#">IFantastico</a>
+                  <a class="dropdown-item" href="#">Historia</a>
                   <a class="dropdown-item" href="#">Tradicionales</a>
                   <div class="dropdown-divider"></div>
                   <!--<a class="dropdown-item" href="#">Separated link</a> -->
                 </div>
               </li>
             </ul>
-            <form class="d-flex col-6">
+            <div class="d-flex " >
+              <button class="btn btn-outline-secondary form-control" type="submit" id="nameb" onclick="welcomeB()">Iniciar sesion</button>
+              <a id="name"></a>
+            </div>
+            <form class="d-flex col-3">
               <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Busqueda</button>
+              <button class="btn btn-outline-success form-control" type="submit">Busqueda</button>
             </form>
           </div>
         </div>
       </nav>
     </div>
+    <div class="row"id="bookdata">
+      </div>
+    </div>
     </body>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="entidades.js"></script>
     </html>   
