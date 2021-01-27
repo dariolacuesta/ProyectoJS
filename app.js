@@ -20,13 +20,15 @@ function catalogBooks(book){
     const img = UpdaterDom.img(book.img);
     img.className = "books";
     const review = UpdaterDom.p(book.review);
+    const genre = UpdaterDom.p3(book.genre);
     const price = UpdaterDom.p2(book.price);
     div.appendChild(img);
     div.appendChild(name);
     div.appendChild(writer);
     div.appendChild(review);
     div.appendChild(price);
-    div.className = "card col-sm-2";
+    div.appendChild(genre)
+    div.className = "card col-sm-2";    
     return div;
  
 }
@@ -61,9 +63,15 @@ if(sessionStorage.getItem('name')!=null)
     btn = document.getElementById('nameb')
     btn.style.display = 'none';
 }
-
+//document.getElementById('home').addEventListener("click",)
 
 // Barra de busqueda
+
+
+
+    
+
+
 
 
     

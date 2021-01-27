@@ -32,10 +32,12 @@ p2(price){
     p2.className = "price";
     return p2;
 }
-
-
-
-}
+p3(genre){
+    const p3 = document.createElement('p');
+    p3.textContent = genre;
+    p3.className = "genre";
+    return p3;
+}}
 
 
 
