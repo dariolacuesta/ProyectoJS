@@ -1,68 +1,4 @@
-function Policial()
-{  
-    sel = document.getElementsByClassName("genre")
-    card = document.getElementsByClassName("card")
-    nav = document.getElementById("policial")
-    nav.style.background = "green";
-    for (let i=0; i<sel.length; i++){
-    
-        if(sel[i].textContent != "Policial")
-        {card[i].style.display = "none"}
-       
-    }   
-}
-function CFiccion()
-{  
-    sel = document.getElementsByClassName("genre")
-    card = document.getElementsByClassName("card")
-    nav = document.getElementById("cficcion")
-    nav.style.background = "green";
-    console.log(sel)
-    for (let i=0; i<sel.length; i++){
-        
-        if(sel[i].textContent != "Ciencia Ficcion")
-        {card[i].style.display = "none"}
-    }   
-}
 
-function Fantastico()
-{  
-    sel = document.getElementsByClassName("genre")
-    card = document.getElementsByClassName("card")
-    nav = document.getElementById("fantastico")
-    nav.style.background = "green";
-    for (let i=0; i<sel.length; i++){
-        if(sel[i].textContent != "Fantastico")
-        {card[i].style.display = "none"}
-    }   
-}
-
-function Historia()
-{  
-    sel = document.getElementsByClassName("genre")
-    nav = document.getElementById("historia")
-    card = document.getElementsByClassName("card")
-    nav.style.background = "green";
-    for (let i=0; i<sel.length; i++){
-    
-        if(sel[i].textContent != "Historia") 
-        {card[i].style.display = "none"}
-    }   
-}
-
-function Drama()
-{    
-    sel = document.getElementsByClassName("genre")
-    card = document.getElementsByClassName("card")
-    nav = document.getElementById("drama")
-    nav.style.background = "green";
-    
-    for (let i=0; i<sel.length; i++){
-       
-        if(sel[i].textContent != "Drama")
-        {card[i].style.display = "none"}
-    }   
-}
 
 function cleanFilter(){
     drop = document.getElementsByClassName("dropdown-item")
@@ -77,6 +13,24 @@ function cleanFilter(){
           
         }
 }   
+
+function filterByGender(e){
+
+    sel = document.getElementsByClassName("genre")
+    card = document.getElementsByClassName("card")
+        e.style.background = "green";
+        console.log(e.id)   
+        for(let i=0; i<sel.length; i++)
+        {    
+             if(sel[i].textContent != e.id)
+             {  
+                 card[i].style.display = "none";
+             }
+             else{
+                 card[i].style.display= "inline";
+             }
+        }
+    }   
 
 
 

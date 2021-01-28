@@ -27,8 +27,9 @@ function catalogBooks(book){
     div.appendChild(writer);
     div.appendChild(review);
     div.appendChild(price);
-    div.appendChild(genre)
-    div.className = "card col-sm-2";    
+    div.appendChild(genre);
+    const genreClass = (book.genre).replace(/[\s.;,?%0-9]/,'').toLowerCase()
+    div.className = `card col-sm-2 ${genreClass}`;    
     return div;
  
 }
