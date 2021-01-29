@@ -15,22 +15,36 @@ function cleanFilter(){
 }   
 
 function filterByGender(e){
-
+    div = document.getElementsByClassName("dropdown-item")
     sel = document.getElementsByClassName("genre")
     card = document.getElementsByClassName("card")
-        e.style.background = "green";
-        console.log(e.id)   
+    drop = document.getElementById(e.id);
+    
         for(let i=0; i<sel.length; i++)
         {    
-             if(sel[i].textContent != e.id)
-             {  
-                 card[i].style.display = "none";
+             if(sel[i].textContent != e.id )
+             {   
+                 card[i].style.display = "none"; 
+                 
              }
              else{
-                 card[i].style.display= "inline";
+                 card[i].style.display= "inline"
+                 
+                 
              }
-        }
+        }   
+        for(let i=0 ; i<div.length;i++){
+        {   if(div[i].id != e.id)
+            {   
+                div[i].style.background = "white"}
+        }}
+     
+       
     }   
-
-
+function greencolor(e){
+  console.log(e)
+  e.style.background ="lawngreen"
+}
+function whitecolor(e)
+{e.style.background="white"}
 

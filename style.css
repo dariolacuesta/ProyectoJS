@@ -56,7 +56,7 @@ a{
     font-weight:normal;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     background-color: lawngreen;
 }
 
@@ -133,7 +133,4 @@ display: block;
     opacity: 0.4;
 }
 
-
-.remover{
-    display: none;
-}
+    
