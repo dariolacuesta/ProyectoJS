@@ -9,16 +9,17 @@ const books = [{
     "genre": "Ciencia Ficcion",
     "available" : true,
     "writer" : "George Orwell",
+    "top": true,
   },{
     "name" : "Estudio en Escarlata",
     "review" : "Poco podía imaginar el Dr. John Watson que compartir piso en Londres iba a ser más emocionante y arriesgado que combatir en Afganistán. ¿El responsable? Su compañero de piso, Sherlock Holmes, cuyas dotes deductivas y personalidad fascinan a Watson.Estudio en escarlata es el trepidante comienzo de la andadura en común de los célebres inquilinos del 221B de Baker Street.",
-    "img" : "https://grupoclaridad.com/wp-content/uploads/2018/04/estudio-escarlata-29101.jpg",
+    "img" : "https://images-na.ssl-images-amazon.com/images/I/718BaebCGhL.jpg",
     "price" : 400,
     "stock": 5,
     "genre": "Policial",
     "available" : true,
     "writer" : "Edgar Allan Poe",
-
+    "top": false,
     
   },
   {
@@ -30,6 +31,7 @@ const books = [{
     "genre": "Fantastico",
     "available" : false,
     "writer" : "J.K. Rowling",
+    "top": false,
   },
   {
     "name" : "Las venas abiertas de America Latina",
@@ -38,8 +40,9 @@ const books = [{
     "price" : 950,
     "stock": 4,
     "genre": "Historia",
-    "available" : false,
+    "available" : true,
     "writer" : "Eduardo Galeano",
+    "top": false,
   },
   {
     "name" : "Harry potter y la camara secreta",
@@ -50,7 +53,7 @@ const books = [{
     "genre": "Fantastico",
     "available" : false,
     "writer" : "Edgar Allan Poe",
-
+    "top": false,
     
   },
   {
@@ -62,7 +65,7 @@ const books = [{
     "genre": "Policial",
     "available" : true,
     "writer" : "J.D Barker",
-
+    "top": false,
     
   },
   {
@@ -74,7 +77,7 @@ const books = [{
     "genre": "Ciencia Ficcion",
     "available" : true,
     "writer" : "Ray Bradbury",
-
+    "top": false,
     
   },
   {
@@ -86,6 +89,7 @@ const books = [{
     "genre": "Ciencia Ficcion",
     "available" : true,
     "writer" : "William Golding",
+    "top": false,
   },
   {
     "name" : "El cuento de la criada",
@@ -96,6 +100,7 @@ const books = [{
     "genre": "Ciencia Ficcion",
     "available" : false,
     "writer" : "Margaret Atwood",
+    "top": false,
   },
   {
     "name" : "La buena suerte",
@@ -106,6 +111,7 @@ const books = [{
     "genre": "Drama",
     "available" : true,
     "writer" : "Rosa Montero",
+    "top": false,
   },
   {
     "name" : "Cien años de soledad",
@@ -116,6 +122,7 @@ const books = [{
     "genre": "Drama",
     "available" : true,
     "writer" : "Gabriel Garcia Marquez",
+    "top": false,
   },
   {
     "name" : "El señor de los anillos",
@@ -126,6 +133,7 @@ const books = [{
     "genre": "Fantastico",
     "available" : true,
     "writer" : "J.R.R Tolkien",
+    "top": false,
   },
   {
     "name" : "Un mundo feliz",
@@ -136,6 +144,7 @@ const books = [{
     "genre": "Ciencia Ficcion",
     "available" : true,
     "writer" : "Aldous Huxley",
+    "top": true,
   },
   {
     "name" : "Manuel Belgrano:El hombre del Bicentenario",
@@ -146,6 +155,7 @@ const books = [{
     "genre": "Historia",
     "available" : true,
     "writer" : "Felipe Pigna",
+    "top": false,
   },
   {
     "name" : "Mujeres insolentes de la historia",
@@ -156,6 +166,7 @@ const books = [{
     "genre": "Historia",
     "available" : true,
     "writer" : "Felipe Pigna",
+    "top": false,
   },
   {
     "name" : "El muñeco de nieve",
@@ -166,6 +177,7 @@ const books = [{
     "genre": "Policial",
     "available" : true,
     "writer" : "Jo Nesbo",
+    "top": false,
   },
   {
     "name" : "Crimen y castigo",
@@ -176,6 +188,7 @@ const books = [{
     "genre": "Policial",
     "available" : true,
     "writer" : "Fiódor Dostoievski",
+    "top": false,
   },
   {
     "name" : "Don Quijote de la Mancha",
@@ -186,6 +199,7 @@ const books = [{
     "genre": "Historia",
     "available" : true,
     "writer" : "Miguel de Cervantes",
+    "top": false,
   },
   {
     "name" : "Moby Dick",
@@ -196,6 +210,7 @@ const books = [{
     "genre": "Fantastico",
     "available" : false,
     "writer" : "Herman Melville",
+    "top": false,
   },
   {
     "name" : "Cianuro Espumoso",
@@ -206,6 +221,7 @@ const books = [{
     "genre": "Policial",
     "available" : false,
     "writer" : "Agatha Christie",
+    "top": false,
   },
 
   

@@ -35,23 +35,22 @@ function catalogBooks(book){
 }
 
 // WELCOME
-const aName = document.getElementById('name');
+const aName =$('#name');
 
-function welcomeB()
-{
+$("#nameb").click(function(){
     if(sessionStorage.getItem('name')===null)
     {
         sessionStorage.setItem('name',prompt("Ingrese su nombre"))
-        aName.innerHTML = `Bienvenido ${sessionStorage.name}`
-        btnHider = document.getElementById('nameb')
-        btnHider.style.display= 'none';
+       aName.html(`Bienvenido ${sessionStorage.name}`)
+        $('#nameb').hide();
+        
     }
-}
+})
 
 const UpdaterDom = new UpdaterDOM();
 
-window.addEventListener('load',()=>
-{const bookdata = document.getElementById('bookdata');})
+$(window).ready( ()=>
+{const bookdata = $('#bookdata');})
 
 books.forEach((book)=>{
     const card = catalogBooks(book);
@@ -60,9 +59,9 @@ books.forEach((book)=>{
 
 if(sessionStorage.getItem('name')!=null)
 {   
-    aName.innerHTML = `Bienvenido ${sessionStorage.name}`
-    btn = document.getElementById('nameb')
-    btn.style.display = 'none';
+    aName.html(`Bienvenido ${sessionStorage.name}`)
+    $('#nameb').hide();
+    //btn.style.display = 'none';
 }
 //document.getElementById('home').addEventListener("click",)
 

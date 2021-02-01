@@ -1,8 +1,8 @@
 
 
 function cleanFilter(){
-    drop = document.getElementsByClassName("dropdown-item")
-    card = document.getElementsByClassName("card")
+    drop = $(".dropdown-item")
+    card = $(".card")
     for(let i=0; i<books.length;i++)
     {   
         card[i].style.display = "inline"
@@ -15,20 +15,19 @@ function cleanFilter(){
 }   
 
 function filterByGender(e){
-    div = document.getElementsByClassName("dropdown-item")
-    sel = document.getElementsByClassName("genre")
-    card = document.getElementsByClassName("card")
-    drop = document.getElementById(e.id);
+    div = $(".dropdown-item")
+    sel = $(".genre")
+    card = $(".card")
+    drop = $(e.id);
     
         for(let i=0; i<sel.length; i++)
         {    
-             if(sel[i].textContent != e.id )
+             if((sel[i]).textContent != e.id )
              {   
-                 card[i].style.display = "none"; 
-                 
+                $(card[i]).hide();               
              }
              else{
-                 card[i].style.display= "inline"
+                 $(card[i]).show();
                  
                  
              }
@@ -42,9 +41,9 @@ function filterByGender(e){
        
     }   
 function greencolor(e){
-  console.log(e)
   e.style.background ="lawngreen"
 }
 function whitecolor(e)
 {e.style.background="white"}
+
 
