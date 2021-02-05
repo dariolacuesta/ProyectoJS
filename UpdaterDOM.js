@@ -14,6 +14,7 @@ h4(writer){
     return h4;
 }
 
+
 img(src){
     const img = document.createElement('img');
     img.src = src ;
@@ -37,7 +38,17 @@ p3(genre){
     p3.textContent = genre;
     p3.className = "genre";
     return p3;
-}}
+}
+button(content, className, id) {
+    const button = document.createElement('button');
+    button.textContent = content;
+   // button.classList.add(className);
+   $(button).addClass(className)
+    button.setAttribute('data-id', id);
+    return button;    
+  }
+}
+
 
 
 
