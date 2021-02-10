@@ -26,6 +26,7 @@ function catalogBooks(book){
     div.className = `card col-sm-2 ${genreClass}`;    
     return div;
 }
+
 // WELCOME
 const aName =$('#name');
 
@@ -49,37 +50,66 @@ if(sessionStorage.getItem('name')!=null)
     $('#nameb').hide();
    
 }
+//LOADER
+// $(window).on('load', function () {
+//     setTimeout(function () {
+//       $(".loader-page").css({ visibility: "hidden", opacity: "0" })
+//     }, 1000);
+//   });
+
+  $(document).ready(function() {
+    setTimeout(function () {
+        $("#loader").css({ visibility: "hidden", opacity: "0" })
+      }, 1000);
+    });
+
 //CONSTRUIMOS EL DOM
 const UpdaterDom = new UpdaterDOM();
 $(window).ready( ()=>
-{    
-      
-    const bookdata = $('#bookdata');
+{     
+const bookdata = $('#bookdata');
 })
 const topdata = $('#top');
 const offersdata = $('#offers');
 const newsdata = $('#news')
 
-books.forEach((book)=>{
-    const card = catalogBooks(book);
-    bookdata.appendChild(card)
-})
-books.forEach((book)=>{
-    const card = catalogBooks(book);
-    if(book.top === true)
-    {   
-        topdata.append(card)
-    }
-    if(book.offers ===true)
-    {
-        offersdata.append(card)
-    }
-    if(book.news ===true )
-    {
-        newsdata.append(card)
+
+
+$.ajax({
+    type:'GET',
+    dataType: 'json',
+    url:'entidades.json',
+    success: function(data){
+        localStorage.data = JSON.stringify(data)
+    },
+    error:function(data){
+        console.log(data)
     }
 })
 
+
+$.when($.ajax('entidades.json')).done(function(data){
+    books = data
+    books.forEach((book)=>{
+        const card = catalogBooks(book);
+        bookdata.appendChild(card)
+    })
+    books.forEach((book)=>{
+        const card = catalogBooks(book);
+        if(book.top === true)
+        {   
+            topdata.append(card)
+        }
+        if(book.offers ===true)
+        {
+            offersdata.append(card)
+        }
+        if(book.news ===true )
+        {
+            newsdata.append(card)
+        }
+    })
+})
 // GENEROS 
 function cleanFilter(){
     drop = $(".dropdown-item")
@@ -87,7 +117,7 @@ function cleanFilter(){
     
     for(let i=0; i<books.length;i++)
     {   
-        //card[i].style.display = "inline"
+        
         $(card).show();
 
     }
@@ -153,8 +183,7 @@ $('#offersButton').click(function(){
     scrollfunc("offersb");
 });
 
-
-
-    
-
+//Mi Carrito
+let cart = "x";
+$('#cart').html(` Mi carrito ${cart}`);
 
