@@ -1,0 +1,238 @@
+@import url(https://fonts.googleapis.com/css?family=Darker+Grotesque:300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css2?family=Special+Elite&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Special+Elite&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=IM+Fell+DW+Pica+SC&family=Special+Elite&display=swap);
+
+a{
+    color:black;
+    font-size: 40px;
+    font-family:"Amatic SC";
+}
+.dropdown-item{
+    font-size: 35px;
+}
+
+.nav-link{  
+    border-style:inset;
+    border-color:grey;
+}
+
+.image-back{
+    background-image:url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg");
+}
+
+#navigatebar{
+    background-color: white;
+}
+
+.books{
+   width:150px;
+   height:150px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 15px;
+   margin-top: 5px;
+}
+
+#name{  
+    font-family:"Amatic SC";
+    font-size:55px;
+    padding-right:15px;
+}
+
+.card {
+    border-radius: 30px;
+    background-color:white;
+    margin-top: 5px;
+    margin-left:25px;
+    margin-right:25px;
+    margin-bottom:15px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right:30px;
+    font-size: 12px;
+    font-weight:normal;
+}
+
+.nav-item:hover {
+    background-color: lawngreen;
+}
+
+
+.dropdown-menu{
+    position: absolute;
+    transform: translate(300%, 0)
+}
+
+
+.title{
+    font-size:25px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 22px;
+    font-family:'Grotesque'
+}
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+}
+h2{
+font-size: 32px;
+font-family:'Roboto Condensed';
+background-color: white;
+margin-left:15px;
+margin-right:15px;
+text-align:center;
+margin-top: 20px;
+}
+#nameb{
+    padding-bottom: 5px;
+    margin-bottom: 31px;
+    margin-top:35px;
+    font-size: 20px;
+    padding-bottom:12px;
+}
+p{
+    font-family: 'Special Elite', cursive;
+}
+
+.price{
+font-size: 20px;
+margin-top: auto;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.carousel-item{
+    height: 32rem;
+    background: #777;
+    color:white;
+    position:relative;
+    text-align: center;
+    
+}
+
+.container{
+
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding-bottom:50px;
+
+}
+.overlay-image{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    top:0;
+    background-position:center;
+    background-size:cover;
+    opacity: 0.4;
+}
+
+i{  
+    
+    font-size: 30px;
+    text-align:center;
+    background-color: white;
+    margin-left:850px;
+    margin-right:750px;
+    
+}
+.btn{
+    margin-bottom: 15px;
+}
+
+#cart{
+    margin-left: 15px; 
+    margin-right:10px;
+    margin-top:20px;
+    font-size:22px;
+    margin-bottom: 25px; 
+    background-color:white; 
+    font-family: 'Fredericka the Great';
+    padding-bottom: 10px;
+}
+
+   
+
+#cart2{
+     
+    margin-right:10px;
+    margin-top:30px;
+    font-size:25px;
+    margin-bottom: 25px; 
+    background-color:white;
+    padding-bottom: 10px; 
+}
+
+.loader-page {
+    position: fixed;
+    z-index: 25000;
+    background: rgb(255, 255, 255);
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:all .3s ease;
+  }
+  .loader-page::before {
+    content: "";
+    position: absolute;
+    border: 2px solid rgb(50, 150, 176);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border-left: 2px solid rgba(50, 150, 176,0);
+    border-top: 2px solid rgba(50, 150, 176,0);
+    animation: rotarload 1s linear infinite;
+    transform: rotate(0deg);
+  }
+  @keyframes rotarload {
+      0%   {transform: rotate(0deg)}
+      100% {transform: rotate(360deg)}
+  }
+  .loader-page::after {
+    content: "";
+    position: absolute;
+    border: 2px solid rgba(50, 150, 176,.5);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border-left: 2px solid rgba(50, 150, 176, 0);
+    border-top: 2px solid rgba(50, 150, 176, 0);
+    animation: rotarload 1s ease-out infinite;
+    transform: rotate(0deg);
+  }
+  #shop{
+      background-color: white;
+  }
+  aside{
+      margin-left: 10px;
+  }
+ .stock{
+     font-size: 10px;
+ }
+ #boton-comprar{
+    font-weight: 400;
+    line-height: 1.5;
+     margin-bottom: 15px;
+     text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+ }
+ 
