@@ -67,7 +67,6 @@
     </div>
   </nav>
 </div>
-
     <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -130,18 +129,35 @@
     <i class="bi bi-arrow-up-square-fill btn btn-light" onclick="scrollfunc('navigatebar')">Volver al Inicio</i>
     </div>
     </div>
+    <!-- Side Bar-->
       <div data-pushbar-id="pushbar-menu" data-pushbar-direction="right" class="pushbar-menu">
         <div class="row">
           <main id="items" class="col-sm-12 row"></main>
-          <aside class="col-sm-12">
+          <aside class="col-sm-12" classname='siderCart'>
               <h2>Carrito</h2>
               <ul id="carrito" class="list-group"></ul>
               <hr>
               <p class="text-right">Total:$ <span id="total"></span></p>
               <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
-              <button id="boton-comprar" class="bnt btn-success" >Comprar</button>
+              <button id="boton-comprar" class="bnt btn-success"  type='button' data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
           </aside>
       </div>
       </div>
+<!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Estado de la compra</h5>
+       
+      </div>
+      <div id='modal-succes' class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="clearModal()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+  </div>
     </body>
     </html>   

@@ -4,20 +4,20 @@
 @import url(https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Special+Elite&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=IM+Fell+DW+Pica+SC&family=Special+Elite&display=swap);
 
-body{
-    background-image:url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg");
-    max-width: 100%;
-    max-height: 100%;
+body {
+  background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg");
+  max-width: 100%;
+  max-height: 100%;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-a{
-    color:black;
-    font-size: 40px;
-    font-family:"Amatic SC";
+a {
+  color: black;
+  font-size: 40px;
+  font-family: "Amatic SC";
 }
 /* .dropdown-item{
     font-size: 35px;
@@ -28,282 +28,297 @@ a{
     border-color:grey;
 } */
 
-#navigatebar{
-    background-color: white;
+#navigatebar {
+  background-color: white;
 }
 
-.books{
-    max-width: 100%;
-    max-height: 200px;
-    min-height: 200px;
-    display: block;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 15px;
-    margin-top: 5px;
-    border-radius: 1rem;
+.books {
+  max-width: 100%;
+  max-height: 200px;
+  min-height: 200px;
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 1rem;
 }
 
-#name{  
-    font-family:"Amatic SC";
-    font-size:55px;
-    padding-right:15px;
+#name {
+  font-family: "Amatic SC";
+  font-size: 55px;
+  padding-right: 15px;
 }
 
 .card {
-    border-radius: 30px;
-    background-color:white;
-    margin-top: 5px;
-    margin-left:5px;
-    margin-right:auto;
-    margin-bottom:15px;
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* padding-right:30px; */
-    font-size: 12px;
-    font-weight:normal;
+  border-radius: 30px;
+  background-color: white;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* padding-right:30px; */
+  font-size: 12px;
+  font-weight: normal;
 }
 
 .nav-item:hover {
-    background-color: lawngreen;
+  background-color: lawngreen;
 }
-
 
 /* .dropdown-menu{
     position: absolute;
     transform: translate(300%, 0)
 } */
 
-
-.title{
-    font-size:25px;
-    font-weight: bold;
+.title {
+  font-size: 25px;
+  font-weight: bold;
 }
 
-h4{
-    font-size: 22px;
-    font-family:'Grotesque'
+h4 {
+  font-size: 22px;
+  font-family: "Grotesque";
 }
-h1{
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 50px;
+h1 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 50px;
 }
-h2{
-font-size: 32px;
-font-family:'Roboto Condensed';
-background-color: white;
-margin-left:15px;
-margin-right:15px;
-text-align:center;
-margin-top: 20px;
+h2 {
+  font-size: 32px;
+  font-family: "Roboto Condensed";
+  background-color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  margin-top: 20px;
 }
-#nameb{
-    padding-bottom: 5px;
-    margin-bottom: 31px;
-    margin-top:35px;
-    font-size: 20px;
-    padding-bottom:12px;
+#nameb {
+  padding-bottom: 5px;
+  margin-bottom: 31px;
+  margin-top: 35px;
+  font-size: 20px;
+  padding-bottom: 12px;
 }
-p{
-    font-family: 'Special Elite', cursive;
-}
-
-.price{
-font-size: 20px;
-margin-top: auto;
-margin-left: auto;
-margin-right: auto;
-display: block;
+p {
+  font-family: "Special Elite", cursive;
 }
 
-.carousel-item{
-    height: 32rem;
-    background: #777;
-    color:white;
-    position:relative;
-    text-align: center;
-    
+.price {
+  font-size: 20px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-.container{
-
-    position:absolute;
-    bottom:0;
-    left:0;
-    right:0;
-    padding-bottom:50px;
-
-}
-.overlay-image{
-    position:absolute;
-    bottom:0;
-    left:0;
-    right:0;
-    top:0;
-    background-position:center;
-    background-size:cover;
-    opacity: 0.4;
+.carousel-item {
+  height: 32rem;
+  background: #777;
+  color: white;
+  position: relative;
+  text-align: center;
 }
 
-i{  
-    
-    font-size: 30px;
-    text-align:center;
-    background-color: white;
+.container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
 }
-.btn{
-    margin-bottom: 15px;
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.4;
 }
 
-#cart{
-    font-size:22px;
-    background-color:white; 
-    font-family: 'Fredericka the Great';
-    padding-bottom: 10px;
+i {
+  font-size: 30px;
+  text-align: center;
+  background-color: white;
+}
+.btn {
+  margin-bottom: 15px;
 }
 
-#cart2{ 
-    background-color:white;
-    padding-bottom: 10px; 
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin:auto;    
+#cart {
+  font-size: 22px;
+  background-color: white;
+  font-family: "Fredericka the Great";
+  padding-bottom: 10px;
+}
+
+#cart2 {
+  background-color: white;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
 }
 
 .loader-page {
-    position: fixed;
-    z-index: 25000;
-    background: rgb(255, 255, 255);
-    left: 0px;
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition:all .3s ease;
+  position: fixed;
+  z-index: 25000;
+  background: rgb(255, 255, 255);
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
 }
 .loader-page::before {
-    content: "";
-    position: absolute;
-    border: 2px solid rgb(50, 150, 176);
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    box-sizing: border-box;
-    border-left: 2px solid rgba(50, 150, 176,0);
-    border-top: 2px solid rgba(50, 150, 176,0);
-    animation: rotarload 1s linear infinite;
-    transform: rotate(0deg);
+  content: "";
+  position: absolute;
+  border: 2px solid rgb(50, 150, 176);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-left: 2px solid rgba(50, 150, 176, 0);
+  border-top: 2px solid rgba(50, 150, 176, 0);
+  animation: rotarload 1s linear infinite;
+  transform: rotate(0deg);
 }
 @keyframes rotarload {
-    0%   {transform: rotate(0deg)}
-    100% {transform: rotate(360deg)}
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .loader-page::after {
-    content: "";
-    position: absolute;
-    border: 2px solid rgba(50, 150, 176,.5);
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    box-sizing: border-box;
-    border-left: 2px solid rgba(50, 150, 176, 0);
-    border-top: 2px solid rgba(50, 150, 176, 0);
-    animation: rotarload 1s ease-out infinite;
-    transform: rotate(0deg);
+  content: "";
+  position: absolute;
+  border: 2px solid rgba(50, 150, 176, 0.5);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-left: 2px solid rgba(50, 150, 176, 0);
+  border-top: 2px solid rgba(50, 150, 176, 0);
+  animation: rotarload 1s ease-out infinite;
+  transform: rotate(0deg);
 }
-#shop{
-    background-color: white;
+#shop {
+  background-color: white;
 }
-aside{
-    margin-left: 10px;
+aside {
+  margin-left: 10px;
 }
-.stock{
-    font-size: 10px;
+.stock {
+  font-size: 10px;
 }
-#boton-comprar{
-    font-weight: 400;
-    line-height: 1.5;
-    margin-bottom: 15px;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    padding: .375rem .75rem;
-    font-size: 1rem;
+#boton-comprar {
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
 }
 
+.pushbar-menu {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 
 @media only screen and (max-width: 767px) {
-    #myCarousel{
-        display: none;
-    }
-    #home{
-        display: none;
-    }
-    #name{
-        display:none
-    }
-    #nameb{
-        display:none
-    }
-    #cart2{
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin: auto; 
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    #myCarousel{
-        display: none;
-    }
-    #home{
-        display: none;
-    }
-    #name{
-        display:none
-    }
-    #nameb{
-        display:none
-    }
-    #cart2{
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin: auto; 
-    }
-}
-
-#bookdata{
-    width: 100%;
-}
-
-#navbarSupportedContent{
+  #myCarousel {
+    display: none;
+  }
+  #home {
+    display: none;
+  }
+  #name {
+    display: none;
+  }
+  #nameb {
+    display: none;
+  }
+  #cart2 {
     align-items: center;
     justify-content: center;
     text-align: center;
     margin: auto;
+  }
+  .name {
+    display: none;
+  }
 }
 
-#navbarSupportedContent ul ul li a{
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #myCarousel {
+    display: none;
+  }
+  #home {
+    display: none;
+  }
+  #name {
+    display: none;
+  }
+  #nameb {
+    display: none;
+  }
+  #cart2 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: auto; 
+    margin: auto;
+  }
+
+  .name {
+    display: none;
+  }
 }
 
-#hidertop{ align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: auto; }
-#hideroffer{ align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: auto; }
-#hidernews{ align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: auto; }
+#bookdata {
+  width: 100%;
+}
+
+#navbarSupportedContent {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+#navbarSupportedContent ul ul li a {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+#hidertop {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+#hideroffer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+#hidernews {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
