@@ -315,7 +315,6 @@ function finalizarCompra() {
     $("#cart").html(` Mi carrito ${cart.length}`);
   }
 }
-
 $botonComprar.addEventListener("click", finalizarCompra);
 $botonVaciar.addEventListener("click", vaciarCarrito);
 $clear.addEventListener("click", pushbar.close());

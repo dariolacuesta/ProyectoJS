@@ -92,6 +92,5 @@ class Pushbar {
     pageRootElement.removeAttribute("pushbar");
     this.activeId = null;
     this.activeElement = null;
-    console.log("daro");
   }
 }
